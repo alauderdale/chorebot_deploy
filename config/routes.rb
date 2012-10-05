@@ -2,6 +2,7 @@ Chorebot::Application.routes.draw do
   resources :users, :user_sessions
   match 'login' => 'user_sessions#new', :as => :login
   match 'logout' => 'user_sessions#destroy', :as => :logout
+  match 'who_is_today' => 'api#who_is_today'
 
 
   # The priority is based upon order of creation:
