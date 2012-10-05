@@ -85616,3 +85616,34 @@ Served asset /museo300-regular-webfont.woff - 304 Not Modified (1ms)
 Started GET "/assets/museo900-regular-webfont.woff" for 127.0.0.1 at 2012-10-04 15:29:40 -0600
 Served asset /museo900-regular-webfont.woff - 304 Not Modified (1ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-05 08:45:44 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`chore_date` = '2012-10-05' LIMIT 1[0m
+  Rendered user_sessions/_form.html.haml (24.2ms)
+  Rendered users/_form.html.haml (7.4ms)
+  Rendered users/index.html.haml within layouts/application (49.5ms)
+Compiled jquery.fancybox.js  (0ms)  (pid 43097)
+Compiled jquery.fancybox.css  (0ms)  (pid 43097)
+Compiled application.css  (146ms)  (pid 43097)
+Compiled jquery.js  (1ms)  (pid 43097)
+Compiled jquery_ujs.js  (0ms)  (pid 43097)
+Compiled users.js  (163ms)  (pid 43097)
+Compiled application.js  (210ms)  (pid 43097)
+Completed 200 OK in 487ms (Views: 466.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-05 08:45:45 -0600
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-05 08:45:45 -0600
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-10-05 08:45:45 -0600
+Served asset /users.js - 304 Not Modified (1ms)
